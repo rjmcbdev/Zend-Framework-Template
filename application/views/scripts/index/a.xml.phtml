@@ -1,0 +1,9 @@
+<?php echo '<?xml version="1.0" ?>' ?>
+<team>
+<name><?php echo $this->team; ?></name>
+<players>
+    <?php foreach($this->players as $player):?>
+        <player><?php echo $player; ?></player>
+    <?php endforeach; ?>
+</players>
+</team>
